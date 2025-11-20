@@ -1,0 +1,38 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Data-driven analysis of global education indicators to assess market readiness and potential for online learning expansion using World Bank datasets."
+authors = [
+    {name = "hhdonglo",email = "hkdonglo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel (>=7.0.1,<8.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scipy (>=1.16.2,<2.0.0)",
+    "pycountry (>=24.6.1,<25.0.0)",
+    "ipython (>=9.6.0,<10.0.0)",
+    "missingno (>=0.5.2,<0.6.0)",
+    "tabulate (>=0.9.0,<0.10.0)",
+    "graphviz (>=0.21,<0.22)",
+    "plotly (>=6.4.0,<7.0.0)",
+    "nbformat (>=5.10.4,<6.0.0)",
+    "notebook (>=7.4.7,<8.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "project2", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)"
+]

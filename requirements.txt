@@ -1,0 +1,21 @@
+# Core Data Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.13.0
+plotly>=5.14.0
+
+# Jupyter Environment
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipython>=8.12.0
+ipykernel>=6.25.0
+
+# Data Processing
+openpyxl>=3.1.0
+
+# Utilities
+graphviz>=0.21
+missingno>=0.5.0
