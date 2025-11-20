@@ -1,5 +1,10 @@
-# EduGlobe-Insights
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
 
+
+# EduGlobe-Insights
 Data-driven market analysis using World Bank EdStats to identify high-potential countries for online education expansion. Explores global education indicators, enrollment trends, and infrastructure readiness to guide strategic market entry decisions for high school and university-level learners.
 
 ---
