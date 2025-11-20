@@ -1,0 +1,35 @@
+# Data files
+data/
+*.csv
+*.xlsx
+*.xls
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output files (optional - uncomment if you don't want to track these)
+# *.png
+# *.pdf
+# outputs/
